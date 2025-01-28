@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom</title>
+    <link rel="stylesheet" href="style.css"> <!-- Add styles in styles.css -->
+    <script defer src="script.js"></script>
+    
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="/images/logo.png" alt="TravelBloom Logo">
+            <span>TravelBloom</span>
+        </div>
+        <ul>
+            <li><a href="http://127.0.0.1:5500/">Home</a></li>
+            <li><a href="http://127.0.0.1:5500/about.html">About Us</a></li>
+            <li><a href="http://127.0.0.1:5500/contact.html">Contact Us</a></li>
+        </ul>
+        <form id="searchForm">
+            <input type="text" id="searchInput" placeholder="Search for recommendations">
+            <button type="button" id="searchButton">Search</button>
+            <button type="reset" id="resetButton">Reset</button>
+        </form>
+    </nav>
+
+    <section id="home" style="background-image: url('/images/background.jpg');">
+        <h1>Welcome to TravelBloom</h1>
+        <p>Your one-stop destination for travel recommendations.</p>
+        <div class="social-icons">
+            <a href="#"><img src="/images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="/images/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="/images/instagram.jpg" alt="Instagram"></a>
+        </div>
+    </section>
+
+   
+
+   
+
+    <section id="recommendations">
+        <h1>Recommendations</h1>
+        <div id="resultContainer"></div>
+    </section>
+</body>
+</html>
