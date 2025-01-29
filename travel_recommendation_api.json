@@ -2,15 +2,15 @@
     "countries": [
       {
         "id": 1,
-        "name": "Australia",
+        "name": "Australia,",
         "cities": [
           {
-            "name": "Sydney, Australia",
+            "name": "Sydney, Australia, country",
             "imageUrl": "/images/sydney.jpg",
             "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
           },
           {
-            "name": "Melbourne, Australia",
+            "name": "Melbourne, Australia, country",
             "imageUrl": "/images/Melbourne.jpg",
             "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
           }
@@ -37,13 +37,13 @@
     "temples": [
       {
         "id": 1,
-        "name": "Angkor Wat, Cambodia",
+        "name": "Angkor Wat, Cambodia, temple",
         "imageUrl": "/images/Angkor Wat.jpg",
         "description": "A UNESCO World Heritage site and the largest religious monument in the world."
       },
       {
         "id": 2,
-        "name": "Taj Mahal, India",
+        "name": "Taj Mahal, India, temple",
         "imageUrl": "/images/taj mahal.jpg",
         "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
       }
@@ -51,13 +51,13 @@
     "beaches": [
       {
         "id": 1,
-        "name": "Bora Bora, French Polynesia",
+        "name": "Bora Bora, French Polynesia, beach",
         "imageUrl": "/images/bora bora.jpg",
         "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
       },
       {
         "id": 2,
-        "name": "Copacabana Beach, Brazil",
+        "name": "Copacabana Beach, Brazil,beach",
         "imageUrl": "/images/coa.jpg",
         "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
       }
